@@ -1,5 +1,3 @@
-# capstone-project
-
 # Capstone_project
 # 🚗 RoadGuardian AI
 
