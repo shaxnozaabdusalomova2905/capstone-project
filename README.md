@@ -1,4 +1,4 @@
-# Capstone_project
+# Capstone-project
 # 🚗 RoadGuardian AI
 
 YOLO-Based Road Damage Detection Using Computer Vision
