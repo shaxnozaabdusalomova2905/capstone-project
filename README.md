@@ -1,206 +1,163 @@
-# Capstone-project
-# 🚗 RoadGuardian AI
-
-YOLO-Based Road Damage Detection Using Computer Vision
-
----
+# Automated Fabric Defect Classification for Textile Quality Inspection Using Deep Learning
 
 ## 📌 Overview
 
+This project develops a deep learning-based computer vision system for automatically classifying defects in fabric images. The goal is to support quality inspection in textile manufacturing by identifying different types of fabric defects quickly and accurately.
 
-
-RoadGuardian AI is a computer vision project that detects road damage such as potholes and cracks using a YOLO object detection model.
-
-The model is trained on a public road damage dataset and can detect road hazards in images and recorded driving videos by drawing bounding boxes around detected damage.
-
-The project demonstrates transfer learning, object detection, computer vision, and deep learning techniques using YOLOv8.
+The system uses transfer learning with pretrained convolutional neural networks (CNNs) to classify fabric images into multiple defect categories.
 
 ---
 
 ## 🎯 Objectives
 
-- Detect road damage using a YOLO object detection model.
-- Classify multiple road damage categories.
-- Evaluate model performance using standard object detection metrics.
-- Demonstrate transfer learning for computer vision.
-- Test the trained model on images and recorded road videos.
+- Develop a multi-class image classification model for fabric defect recognition.
+- Explore and preprocess a public fabric defect dataset.
+- Train and evaluate deep learning models using transfer learning.
+- Compare model performance using standard evaluation metrics.
+- Build a reproducible machine learning pipeline.
+
 ---
 
-## 📂 Dataset
-This project uses the public Road Damage Dataset (RDD2020).
+## 🏭 Problem Statement
 
-The dataset contains over 26,000 road images collected from India, Japan, and the Czech Republic.
+Quality inspection in textile manufacturing is traditionally performed manually. This process is repetitive, time-consuming, and may lead to inconsistent results due to human fatigue.
 
-The model is trained to detect four categories of road damage:
+This project aims to automate the classification of fabric defects using computer vision and deep learning, helping inspectors identify defective fabrics more efficiently.
 
-- D00 – Longitudinal Crack
-- D10 – Transverse Crack
-- D20 – Alligator Crack
-- D40 – Pothole
+---
 
-## 🖥️ Demo
+## 🧵 Dataset
 
-(Add GIF or screenshots here)
+**Dataset:** Multi-Class Fabric Defect Detection Dataset
 
-Example:
+The dataset contains over 3,000 high-resolution fabric images collected from real textile production lines. Images belong to nine classes including:
 
-Input:
+- Defect Free
+- Hole
+- Horizontal
+- Vertical
+- Lines
+- Pinched Fabric
+- Needle Mark
+- Broken Stitch
+- Stain
 
-📹 Road Video
-
-↓
-
-YOLO Detection
-
-↓
-
-🟩 Pothole Detected
-
-↓
-
-⚠️ Warning Displayed
-
-
+---
 
 ## 🛠️ Technologies
 
 - Python
 - PyTorch
-- Ultralytics YOLOv8
 - OpenCV
+- Torchvision
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
 - Google Colab
-- VS Code
 - Git
 - GitHub
----
-
-## 📂 Dataset
-
-Dataset used:
-
-- Road Damage Dataset (RDD2020)
-
-The model was fine-tuned on publicly available road damage images.
 
 ---
 
-## ⚙️ Project Pipeline
+## 🧠 Machine Learning Approach
 
-Road Video
+The project follows a transfer learning approach using pretrained convolutional neural networks such as:
 
-↓
+- ResNet18
+- EfficientNet-B0
 
-OpenCV
+The workflow includes:
 
-↓
+1. Data exploration
+2. Data preprocessing
+3. Data augmentation
+4. Model training
+5. Model evaluation
+6. Prediction on unseen images
 
-YOLO Object Detection
+---
 
-↓
+## 📊 Evaluation Metrics
 
-Hazard Detection
+Model performance will be evaluated using:
 
-↓
-
-Bounding Box
-
-↓
-
-Warning Display
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
 
 ---
 
 ## 📁 Project Structure
 
-RoadGuardianAI/
-
-├── app.py
-
-├── detect.py
-
-├── camera.py
-
-├── warning.py
-
-├── model/
-
-│ └── best.pt
-
-├── videos/
-
-├── outputs/
-
-├── utils/
-
+```
+Fabric-Defect-Classification/
+│
+├── README.md
 ├── requirements.txt
-
-├── Dockerfile
-
-└── README.md
-
----
-
-## 📊 Model Evaluation
-
-Metrics:
-
-- Precision
-- Recall
-- mAP
-- Inference Speed (FPS)
-
-(Add your results after training.)
-
----
-
-## 🚀 Installation
-
-```bash
-git clone https://github.com/yourusername/RoadGuardianAI.git
-
-cd RoadGuardianAI
-
-pip install -r requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── 01_dataset_exploration.ipynb
+│   ├── 02_data_preprocessing.ipynb
+│   ├── 03_model_training.ipynb
+│   └── 04_model_evaluation.ipynb
+│
+├── src/
+├── models/
+├── outputs/
+├── docs/
+└── assets/
 ```
 
 ---
 
-## ▶️ Running the Project
+## 🚀 Getting Started
+
+Clone the repository:
 
 ```bash
-python app.py
+git clone https://github.com/yourusername/Fabric-Defect-Classification.git
+```
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ---
 
 ## 📈 Future Improvements
 
-- Voice warnings
-- Distance estimation
-- Detection of additional hazards:
-  - road cracks
-  - construction barriers
-  - debris
-  - puddles
-- GPS logging
-- Edge deployment (Jetson/Raspberry Pi)
-- Night-time optimization
+- Real-time fabric inspection using industrial cameras.
+- Fabric defect localisation using object detection.
+- Edge deployment for embedded devices.
+- Defect severity estimation.
+- Integration into automated textile production systems.
 
 ---
 
-## 📚 What I Learned
+## 📚 Learning Outcomes
 
-- Object Detection with YOLO
+Through this project, I aim to strengthen my knowledge of:
+
 - Computer Vision
+- Deep Learning
 - Transfer Learning
-- OpenCV
-- Real-time inference
-- MLflow
-- Docker
-- End-to-end Machine Learning workflow
+- Image Classification
+- Model Evaluation
+- Machine Learning Engineering
+- Git and GitHub
 
 ---
 
 ## 📄 License
 
-This project is for educational purposes.
+This project was developed for educational purposes as part of an AI/ML capstone project.
