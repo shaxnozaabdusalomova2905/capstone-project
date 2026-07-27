@@ -42,6 +42,16 @@ The dataset contains over 3,000 high-resolution fabric images collected from rea
 - Broken Stitch
 - Stain
 
+**Sample images per class:**
+
+![Sample fabric defect images per class](assets/sample_defects_grid.png)
+
+**Class distribution:**
+
+![Fabric defect class distribution](assets/class_distribution.png)
+
+The dataset is imbalanced — "Defect Free" accounts for ~54% of images, while classes like "Vertical" make up only ~3%. This is addressed during model training via class weighting/augmentation (see `notebooks/01_dataset_exploration.ipynb` for the full analysis).
+
 ---
 
 ## 🛠️ Technologies
