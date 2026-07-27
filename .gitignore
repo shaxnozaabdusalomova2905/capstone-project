@@ -24,7 +24,13 @@ env/
 ENV/
 
 # Datasets (usually too large for git, download separately)
-data/
+data/*
+!data/raw/
+!data/processed/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
 datasets/
 *.zip
 *.tar
