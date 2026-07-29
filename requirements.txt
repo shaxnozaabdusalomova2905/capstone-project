@@ -7,4 +7,3 @@ pandas
 matplotlib
 scikit-learn
 kagglehub
-Ueruytuyr
