@@ -31,6 +31,9 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+# Keep the small metadata that records the exact split, but not the images
+!data/processed/manifest.csv
+!data/processed/class_weights.json
 datasets/
 *.zip
 *.tar
@@ -44,10 +47,15 @@ datasets/
 weights/
 runs/
 
-# Logs and outputs
+# Logs
 *.log
-outputs/
 logs/
+
+# Results: metrics and figures are small and worth keeping as a record of
+# what each model achieved. Only bulky artifacts are excluded.
+outputs/**/*.pt
+outputs/**/*.pth
+outputs/**/*.zip
 
 # Environment/secrets
 .env
