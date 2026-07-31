@@ -5,19 +5,17 @@
   "n_folds": 5,
   "epochs": 25,
   "parameters": 391689,
-  "macro_f1": 0.5762305776609042,
-  "accuracy": 0.8268176835951772,
+  "macro_f1": 0.583,
+  "accuracy": 0.837,
   "per_class_recall": {
     "Broken stitch": 0.25,
-    "Needle mark": 0.9537037037037037,
-    "Pinched fabric": 0.8333333333333334,
-    "Vertical": 0.2222222222222222,
-    "defect free": 0.9374624173180999,
-    "hole": 0.2198581560283688,
-    "horizontal": 0.5882352941176471,
-    "lines": 0.7123287671232876,
-    "stain": 0.8090452261306532
-  },
-  "reference_macro_f1": 0.08398989898989899,
-  "reference_accuracy": 0.6075995615637559
+    "Needle mark": 0.953704,
+    "Pinched fabric": 0.944444,
+    "Vertical": 0.148148,
+    "defect free": 0.905592,
+    "hole": 0.205674,
+    "horizontal": 0.676471,
+    "lines": 0.726027,
+    "stain": 0.977387
+  }
 }
