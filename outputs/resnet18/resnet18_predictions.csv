@@ -333,23 +333,23 @@ images/Vertical/00330.jpg,Vertical,4,11.jpg,Vertical,True
 images/Vertical/00331.jpg,Vertical,1,12.jpg,horizontal,False
 images/Vertical/00332.jpg,Vertical,1,13.jpg,Vertical,True
 images/Vertical/00333.jpg,Vertical,2,14.jpg,Vertical,True
-images/Vertical/00334.jpg,Vertical,2,15.jpg,horizontal,False
+images/Vertical/00334.jpg,Vertical,2,15.jpg,Vertical,True
 images/Vertical/00335.jpg,Vertical,3,16.jpg,Vertical,True
 images/Vertical/00336.jpg,Vertical,3,17.jpg,Vertical,True
 images/Vertical/00337.jpg,Vertical,1,18.jpg,Vertical,True
 images/Vertical/00338.jpg,Vertical,4,19.jpg,horizontal,False
 images/Vertical/00339.jpg,Vertical,2,2.jpg,Vertical,True
 images/Vertical/00340.jpg,Vertical,2,20.jpg,Vertical,True
-images/Vertical/00341.jpg,Vertical,4,21.jpg,Vertical,True
+images/Vertical/00341.jpg,Vertical,4,21.jpg,horizontal,False
 images/Vertical/00342.jpg,Vertical,4,22.jpg,horizontal,False
 images/Vertical/00343.jpg,Vertical,3,23.jpg,hole,False
 images/Vertical/00344.jpg,Vertical,0,3.jpg,horizontal,False
-images/Vertical/00345.jpg,Vertical,0,4.jpg,Vertical,True
+images/Vertical/00345.jpg,Vertical,0,4.jpg,horizontal,False
 images/Vertical/00346.jpg,Vertical,3,5.jpg,Vertical,True
 images/Vertical/00347.jpg,Vertical,3,6.jpg,Vertical,True
 images/Vertical/00348.jpg,Vertical,0,7.jpg,Vertical,True
-images/Vertical/00349.jpg,Vertical,4,8.jpg,Vertical,True
-images/Vertical/00350.jpg,Vertical,2,9.jpg,Vertical,True
+images/Vertical/00349.jpg,Vertical,4,8.jpg,horizontal,False
+images/Vertical/00350.jpg,Vertical,2,9.jpg,horizontal,False
 images/Vertical/00351.jpg,Vertical,0,exp1_num_249594 - Copy.png,Vertical,True
 images/Vertical/00352.jpg,Vertical,3,exp2_num_249619 - Copy.png,Vertical,True
 images/Vertical/00353.jpg,Vertical,0,exp5_num_249786 - Copy.png,Vertical,True
@@ -358,7 +358,7 @@ images/defect free/00355.jpg,defect free,4,0001_000_00.png,defect free,True
 images/defect free/00356.jpg,defect free,2,0001_000_01.png,defect free,True
 images/defect free/00357.jpg,defect free,1,0001_000_02.png,defect free,True
 images/defect free/00358.jpg,defect free,0,0001_000_03.png,defect free,True
-images/defect free/00359.jpg,defect free,4,0001_000_04.png,Vertical,False
+images/defect free/00359.jpg,defect free,4,0001_000_04.png,defect free,True
 images/defect free/00360.jpg,defect free,4,0001_000_05.png,defect free,True
 images/defect free/00361.jpg,defect free,0,0001_000_06.png,defect free,True
 images/defect free/00362.jpg,defect free,4,0002_000_00.png,defect free,True
@@ -392,7 +392,7 @@ images/defect free/00389.jpg,defect free,4,0005_000_06.png,defect free,True
 images/defect free/00390.jpg,defect free,2,0006_000_00.png,defect free,True
 images/defect free/00391.jpg,defect free,4,0006_000_01.png,defect free,True
 images/defect free/00392.jpg,defect free,0,0006_000_02.png,defect free,True
-images/defect free/00393.jpg,defect free,4,0006_000_03.png,Vertical,False
+images/defect free/00393.jpg,defect free,4,0006_000_03.png,defect free,True
 images/defect free/00394.jpg,defect free,4,0006_000_04.png,defect free,True
 images/defect free/00395.jpg,defect free,0,0006_000_05.png,defect free,True
 images/defect free/00396.jpg,defect free,4,0006_000_06.png,defect free,True
@@ -615,7 +615,7 @@ images/defect free/00612.jpg,defect free,4,1093ed38cd0c94570901575124.jpg,defect
 images/defect free/00613.jpg,defect free,2,109f52150923fc8f1503433314.jpg,defect free,True
 images/defect free/00614.jpg,defect free,3,10cf852d520f88f21052412724.jpg,defect free,True
 images/defect free/00615.jpg,defect free,2,10dcf41963e415210935218774.jpg,defect free,True
-images/defect free/00616.jpg,defect free,3,11.jpg,defect free,True
+images/defect free/00616.jpg,defect free,3,11.jpg,stain,False
 images/defect free/00617.jpg,defect free,2,1100d1eebd163a4b0943370152.jpg,defect free,True
 images/defect free/00618.jpg,defect free,4,116ff371cbda63271241042313.jpg,defect free,True
 images/defect free/00619.jpg,defect free,0,11800e8b06c5b37f0940213693.jpg,defect free,True
@@ -632,7 +632,7 @@ images/defect free/00629.jpg,defect free,1,1311333e9d11b2cf1537443145.jpg,defect
 images/defect free/00630.jpg,defect free,4,135d8ef2c9b6be4c0843241112.jpg,defect free,True
 images/defect free/00631.jpg,defect free,3,13757a04c51ab79f1345270733.jpg,defect free,True
 images/defect free/00632.jpg,defect free,1,138b98d8f5ebf75c1534158954.jpg,defect free,True
-images/defect free/00633.jpg,defect free,2,14.jpg,stain,False
+images/defect free/00633.jpg,defect free,2,14.jpg,defect free,True
 images/defect free/00634.jpg,defect free,2,14081687391c95401203461231.jpg,defect free,True
 images/defect free/00635.jpg,defect free,3,141e436303dc6e060957335402.jpg,defect free,True
 images/defect free/00636.jpg,defect free,3,14355a11031311f40913593512.jpg,defect free,True
@@ -660,17 +660,17 @@ images/defect free/00657.jpg,defect free,1,167d4d22a6fcc56d1339090952.jpg,defect
 images/defect free/00658.jpg,defect free,2,17.jpg,defect free,True
 images/defect free/00659.jpg,defect free,2,1731838b281624560852285043.jpg,defect free,True
 images/defect free/00660.jpg,defect free,4,173e9186ff9ac1f70858337303.jpg,defect free,True
-images/defect free/00661.jpg,defect free,0,17448d91461707080805399244.jpg,defect free,True
+images/defect free/00661.jpg,defect free,0,17448d91461707080805399244.jpg,hole,False
 images/defect free/00662.jpg,defect free,1,1744e41be7805f140813438373.jpg,defect free,True
 images/defect free/00663.jpg,defect free,1,17ca87c430046b910940213422.jpg,defect free,True
-images/defect free/00664.jpg,defect free,4,18.jpg,defect free,True
+images/defect free/00664.jpg,defect free,4,18.jpg,stain,False
 images/defect free/00665.jpg,defect free,4,1818f22590bbf2fc0905031533.jpg,defect free,True
 images/defect free/00666.jpg,defect free,0,182e669c7904d78e1056480993.jpg,defect free,True
 images/defect free/00667.jpg,defect free,2,18b6260587ba1f621226304201.jpg,defect free,True
 images/defect free/00668.jpg,defect free,3,18c2a6b3876245dc0930444371.jpg,defect free,True
 images/defect free/00669.jpg,defect free,1,18e25485cd3076331003155635.jpg,defect free,True
 images/defect free/00670.jpg,defect free,2,18eb34748f15c7230835206755.jpg,defect free,True
-images/defect free/00671.jpg,defect free,1,19.jpg,defect free,True
+images/defect free/00671.jpg,defect free,1,19.jpg,stain,False
 images/defect free/00672.jpg,defect free,2,1914772bbd6bfd1b1446321515.jpg,defect free,True
 images/defect free/00673.jpg,defect free,1,191daef3e0a4d1ba1531302722.jpg,defect free,True
 images/defect free/00674.jpg,defect free,3,19280242639698720802420056.jpg,defect free,True
@@ -755,7 +755,7 @@ images/defect free/00752.jpg,defect free,4,2370b14ed0ede2230902213173.jpg,defect
 images/defect free/00753.jpg,defect free,1,23a6e743b19b343a0904123962.jpg,defect free,True
 images/defect free/00754.jpg,defect free,2,23b93400111c1be71627430161.jpg,defect free,True
 images/defect free/00755.jpg,defect free,2,23e3fb849fc560f11512091994.jpg,defect free,True
-images/defect free/00756.jpg,defect free,3,24.jpg,defect free,True
+images/defect free/00756.jpg,defect free,3,24.jpg,stain,False
 images/defect free/00757.jpg,defect free,3,244fbb444fb4caa81225426952.jpg,defect free,True
 images/defect free/00758.jpg,defect free,4,2459b02d867f8e1e1437296715.jpg,defect free,True
 images/defect free/00759.jpg,defect free,4,247ef74c851f42330847381875.jpg,defect free,True
@@ -800,7 +800,7 @@ images/defect free/00797.jpg,defect free,0,285fff2196a9077d1531046915.jpg,defect
 images/defect free/00798.jpg,defect free,4,28a07cba588225c00943012993.jpg,defect free,True
 images/defect free/00799.jpg,defect free,1,28c13e90747b3c2d0938586445.jpg,defect free,True
 images/defect free/00800.jpg,defect free,3,28cd6ec9b013a28a0810410222.jpg,defect free,True
-images/defect free/00801.jpg,defect free,0,29.jpg,defect free,True
+images/defect free/00801.jpg,defect free,0,29.jpg,stain,False
 images/defect free/00802.jpg,defect free,3,2923bd256793ce9d0842092471.jpg,defect free,True
 images/defect free/00803.jpg,defect free,1,29572d65d8c82cff0842429841.jpg,defect free,True
 images/defect free/00804.jpg,defect free,2,2978ab0d2a9066230825132276.jpg,defect free,True
@@ -857,7 +857,7 @@ images/defect free/00854.jpg,defect free,4,335593709699999f1042392632.jpg,defect
 images/defect free/00855.jpg,defect free,2,33bd571c241a97b00811563825.jpg,defect free,True
 images/defect free/00856.jpg,defect free,3,33e9566631fbff4f1342121383.jpg,defect free,True
 images/defect free/00857.jpg,defect free,0,33f2cabaf718802c0811564086.jpg,defect free,True
-images/defect free/00858.jpg,defect free,1,34.jpg,defect free,True
+images/defect free/00858.jpg,defect free,1,34.jpg,stain,False
 images/defect free/00859.jpg,defect free,3,34589a367eb418d21332209475.jpg,defect free,True
 images/defect free/00860.jpg,defect free,2,34c3ca3778338b811000208995.jpg,defect free,True
 images/defect free/00861.jpg,defect free,0,34deae09ace063100848322386.jpg,defect free,True
@@ -891,7 +891,7 @@ images/defect free/00888.jpg,defect free,4,3888cd55e2682e431330487282.jpg,defect
 images/defect free/00889.jpg,defect free,2,38a8a7da9927fd4d0941271522.jpg,defect free,True
 images/defect free/00890.jpg,defect free,3,38ee425b91ee74b51303270453.jpg,defect free,True
 images/defect free/00891.jpg,defect free,0,38f4c2d7cfc461581218216322.jpg,defect free,True
-images/defect free/00892.jpg,defect free,4,39.jpg,stain,False
+images/defect free/00892.jpg,defect free,4,39.jpg,defect free,True
 images/defect free/00893.jpg,defect free,0,39052557c5e244b91334562121.jpg,defect free,True
 images/defect free/00894.jpg,defect free,3,390991150de709ff1341067056.jpg,defect free,True
 images/defect free/00895.jpg,defect free,1,390cc535b77ce1580933280252.jpg,defect free,True
@@ -997,7 +997,7 @@ images/defect free/00994.jpg,defect free,0,4769deea94b883981310543571.jpg,defect
 images/defect free/00995.jpg,defect free,2,47739d708eed0ac80939371633.jpg,defect free,True
 images/defect free/00996.jpg,defect free,3,477b972ccfb034b71553208831.jpg,defect free,True
 images/defect free/00997.jpg,defect free,3,47a82a45839f539d0923502793.jpg,defect free,True
-images/defect free/00998.jpg,defect free,3,48.jpg,defect free,True
+images/defect free/00998.jpg,defect free,3,48.jpg,stain,False
 images/defect free/00999.jpg,defect free,1,48097d35a56a32960920594635.jpg,defect free,True
 images/defect free/01000.jpg,defect free,3,480bbdaa6e6ea87e0940558023.jpg,defect free,True
 images/defect free/01001.jpg,defect free,1,480da2d463140a2a0815141866.jpg,defect free,True
@@ -1041,7 +1041,7 @@ images/defect free/01038.jpg,defect free,0,4f8de7de6bf65c1b1229103953.jpg,defect
 images/defect free/01039.jpg,defect free,4,4fc2c8652cd62a481233599724.jpg,defect free,True
 images/defect free/01040.jpg,defect free,1,4fff4614bb65092c0917535343.jpg,defect free,True
 images/defect free/01041.jpg,defect free,1,5.jpg,stain,False
-images/defect free/01042.jpg,defect free,3,50.jpg,defect free,True
+images/defect free/01042.jpg,defect free,3,50.jpg,stain,False
 images/defect free/01043.jpg,defect free,4,5092232a43e001861232170434.jpg,defect free,True
 images/defect free/01044.jpg,defect free,0,5092b826106e08e00838341954.jpg,defect free,True
 images/defect free/01045.jpg,defect free,3,50dcbedf1c7c30220807460472.jpg,defect free,True
@@ -1140,12 +1140,12 @@ images/defect free/01137.jpg,defect free,0,620e38a3573563f21205061074.jpg,defect
 images/defect free/01138.jpg,defect free,4,622b33f642852a030934547091.jpg,defect free,True
 images/defect free/01139.jpg,defect free,4,62946df2bbde85e51342369561.jpg,defect free,True
 images/defect free/01140.jpg,defect free,0,62fb940ee2aafd701333430642.jpg,defect free,True
-images/defect free/01141.jpg,defect free,4,63.jpg,stain,False
+images/defect free/01141.jpg,defect free,4,63.jpg,defect free,True
 images/defect free/01142.jpg,defect free,0,630fb161234513ec0939550045.jpg,defect free,True
 images/defect free/01143.jpg,defect free,1,6329c965978506651512338745.jpg,defect free,True
 images/defect free/01144.jpg,defect free,2,6339c3af341e06d40841094532.jpg,defect free,True
 images/defect free/01145.jpg,defect free,1,63c83340ca13b05a0912131076.jpg,defect free,True
-images/defect free/01146.jpg,defect free,0,64.jpg,stain,False
+images/defect free/01146.jpg,defect free,0,64.jpg,defect free,True
 images/defect free/01147.jpg,defect free,4,6410493304e77a4e0933436402.jpg,defect free,True
 images/defect free/01148.jpg,defect free,1,643cab8148dbca0c1041192505.jpg,defect free,True
 images/defect free/01149.jpg,defect free,2,6471ee95059bc4d21038086106.jpg,defect free,True
@@ -1420,7 +1420,7 @@ images/defect free/01417.jpg,defect free,0,9440b48be2f5d8400812000242.jpg,defect
 images/defect free/01418.jpg,defect free,2,9464cff9358a138f1027303535.jpg,defect free,True
 images/defect free/01419.jpg,defect free,2,947a857e416e86341212200142.jpg,defect free,True
 images/defect free/01420.jpg,defect free,0,9495318d290257891034063862.jpg,defect free,True
-images/defect free/01421.jpg,defect free,4,94976be52357593f1601079514.jpg,Vertical,False
+images/defect free/01421.jpg,defect free,4,94976be52357593f1601079514.jpg,defect free,True
 images/defect free/01422.jpg,defect free,3,94b2ba17b296a8331443451673.jpg,defect free,True
 images/defect free/01423.jpg,defect free,2,94bea6f7280a0ab60806061142.jpg,defect free,True
 images/defect free/01424.jpg,defect free,2,94dc2b4d2d1a686e0818593725.jpg,defect free,True
@@ -1736,7 +1736,7 @@ images/defect free/01733.jpg,defect free,1,cbbabbfa87786d841022420266.jpg,defect
 images/defect free/01734.jpg,defect free,3,cbc01a93cd85e90b1340588096.jpg,defect free,True
 images/defect free/01735.jpg,defect free,0,cbc3a8769c08e13f0922412294.jpg,defect free,True
 images/defect free/01736.jpg,defect free,3,cbc70c4e87076dd21606026062.jpg,defect free,True
-images/defect free/01737.jpg,defect free,4,cc0c67b689741e4c1241584296.jpg,Vertical,False
+images/defect free/01737.jpg,defect free,4,cc0c67b689741e4c1241584296.jpg,defect free,True
 images/defect free/01738.jpg,defect free,2,cc7388f79beb8b5b0934444694.jpg,defect free,True
 images/defect free/01739.jpg,defect free,2,cc87b8e2380de8171052163575.jpg,defect free,True
 images/defect free/01740.jpg,defect free,0,cc95e4c8c90cc3750830564186.jpg,defect free,True
@@ -1807,7 +1807,7 @@ images/defect free/01804.jpg,defect free,1,d857fe25b2191b650941271251.jpg,defect
 images/defect free/01805.jpg,defect free,0,d86d8df33957c0040842093816.jpg,defect free,True
 images/defect free/01806.jpg,defect free,4,d88f456e965f28580930445164.jpg,defect free,True
 images/defect free/01807.jpg,defect free,2,d8a5b4a05da650901344052472.jpg,defect free,True
-images/defect free/01808.jpg,defect free,4,d93ebb27b6e7bb621427033406.jpg,Vertical,False
+images/defect free/01808.jpg,defect free,4,d93ebb27b6e7bb621427033406.jpg,defect free,True
 images/defect free/01809.jpg,defect free,2,d94c3fe3a53300631340542255.jpg,defect free,True
 images/defect free/01810.jpg,defect free,0,d951c965306753db0945047563.jpg,defect free,True
 images/defect free/01811.jpg,defect free,2,d9af7ef4823488ca1217516532.jpg,defect free,True
@@ -2017,9 +2017,9 @@ images/defect free/02014.jpg,defect free,2,ff8a4978c3fb81aa0828353922.jpg,defect
 images/defect free/02015.jpg,defect free,2,ffd3e9a36956b53a0831030452.jpg,defect free,True
 images/defect free/02016.jpg,defect free,3,ffe6d7879752f5a81056365526.jpg,defect free,True
 images/defect free/02017.jpg,defect free,1,ffef64f34a24d1580947110371.jpg,defect free,True
-images/hole/02018.jpg,hole,4,1.jpg,Vertical,False
-images/hole/02019.jpg,hole,4,10.jpg,Vertical,False
-images/hole/02020.jpg,hole,2,11.jpg,hole,True
+images/hole/02018.jpg,hole,4,1.jpg,hole,True
+images/hole/02019.jpg,hole,4,10.jpg,hole,True
+images/hole/02020.jpg,hole,2,11.jpg,Vertical,False
 images/hole/02021.jpg,hole,1,12.jpg,hole,True
 images/hole/02022.jpg,hole,0,13.jpg,hole,True
 images/hole/02023.jpg,hole,0,14.jpg,hole,True
@@ -2094,8 +2094,8 @@ images/hole/02091.jpg,hole,2,hole_2018-10-11 13_11_15.676236.jpg,hole,True
 images/hole/02092.jpg,hole,4,hole_2018-10-11 13_11_59.813602.jpg,lines,False
 images/hole/02093.jpg,hole,0,hole_2018-10-11 13_12_41.980730.jpg,lines,False
 images/hole/02094.jpg,hole,1,hole_2018-10-11 13_13_27.731600.jpg,hole,True
-images/hole/02095.jpg,hole,1,hole_2018-10-11 13_14_03.982656.jpg,hole,True
-images/hole/02096.jpg,hole,1,hole_2018-10-11 13_15_39.307244.jpg,hole,True
+images/hole/02095.jpg,hole,1,hole_2018-10-11 13_14_03.982656.jpg,lines,False
+images/hole/02096.jpg,hole,1,hole_2018-10-11 13_15_39.307244.jpg,lines,False
 images/hole/02097.jpg,hole,4,hole_2018-10-11 13_16_12.718047.jpg,hole,True
 images/hole/02098.jpg,hole,2,hole_2018-10-11 13_16_52.823382.jpg,hole,True
 images/hole/02099.jpg,hole,3,hole_2018-10-11 13_17_30.928240.jpg,hole,True
@@ -2117,7 +2117,7 @@ images/hole/02114.jpg,hole,0,hole_2018-10-11 13_38_02.614172.jpg,hole,True
 images/hole/02115.jpg,hole,4,hole_2018-10-11 13_38_50.453176.jpg,hole,True
 images/hole/02116.jpg,hole,2,hole_2018-10-11 13_39_55.527452.jpg,hole,True
 images/hole/02117.jpg,hole,3,hole_2018-10-11 13_41_12.121443.jpg,hole,True
-images/hole/02118.jpg,hole,4,hole_2018-10-11 13_42_09.246088.jpg,lines,False
+images/hole/02118.jpg,hole,4,hole_2018-10-11 13_42_09.246088.jpg,hole,True
 images/hole/02119.jpg,hole,0,hole_2018-10-11 13_42_53.345032.jpg,hole,True
 images/hole/02120.jpg,hole,3,hole_2018-10-11 13_44_23.682320.jpg,hole,True
 images/hole/02121.jpg,hole,0,hole_2018-10-11 13_45_00.016723.jpg,hole,True
@@ -2125,16 +2125,16 @@ images/hole/02122.jpg,hole,3,hole_2018-10-11 13_45_38.645199.jpg,hole,True
 images/hole/02123.jpg,hole,3,hole_2018-10-11 13_46_12.139167.jpg,hole,True
 images/hole/02124.jpg,hole,2,hole_2018-10-11 13_47_44.290326.jpg,hole,True
 images/hole/02125.jpg,hole,2,hole_2018-10-11 13_49_24.726254.jpg,hole,True
-images/hole/02126.jpg,hole,4,hole_2018-10-11 13_49_58.883177.jpg,lines,False
-images/hole/02127.jpg,hole,4,hole_2018-10-11 13_51_17.447615.jpg,lines,False
+images/hole/02126.jpg,hole,4,hole_2018-10-11 13_49_58.883177.jpg,hole,True
+images/hole/02127.jpg,hole,4,hole_2018-10-11 13_51_17.447615.jpg,hole,True
 images/hole/02128.jpg,hole,2,hole_2018-10-11 13_53_44.908217.jpg,hole,True
 images/hole/02129.jpg,hole,4,hole_2018-10-11 13_54_52.155940.jpg,hole,True
 images/hole/02130.jpg,hole,0,hole_2018-10-11 13_56_13.682297.jpg,hole,True
 images/hole/02131.jpg,hole,4,hole_2018-10-11 13_56_54.766983.jpg,hole,True
 images/hole/02132.jpg,hole,4,hole_2018-10-11 13_57_26.610945.jpg,hole,True
 images/hole/02133.jpg,hole,1,hole_2018-10-11 13_58_04.423087.jpg,hole,True
-images/hole/02134.jpg,hole,4,hole_2018-10-11 13_59_17.317728.jpg,lines,False
-images/hole/02135.jpg,hole,2,hole_2018-10-11 14_00_07.023408.jpg,horizontal,False
+images/hole/02134.jpg,hole,4,hole_2018-10-11 13_59_17.317728.jpg,hole,True
+images/hole/02135.jpg,hole,2,hole_2018-10-11 14_00_07.023408.jpg,hole,True
 images/hole/02136.jpg,hole,2,hole_2018-10-11 14_03_20.632162.jpg,hole,True
 images/hole/02137.jpg,hole,2,hole_2018-10-11 14_04_10.054152.jpg,hole,True
 images/hole/02138.jpg,hole,2,hole_2018-10-11 14_05_08.635736.jpg,hole,True
@@ -2166,19 +2166,19 @@ images/horizontal/02163.jpg,horizontal,4,13.jpg,horizontal,True
 images/horizontal/02164.jpg,horizontal,0,14.jpg,horizontal,True
 images/horizontal/02165.jpg,horizontal,0,15.jpg,horizontal,True
 images/horizontal/02166.jpg,horizontal,0,16.jpg,horizontal,True
-images/horizontal/02167.jpg,horizontal,4,17.jpg,Vertical,False
+images/horizontal/02167.jpg,horizontal,4,17.jpg,horizontal,True
 images/horizontal/02168.jpg,horizontal,1,18.jpg,horizontal,True
 images/horizontal/02169.jpg,horizontal,2,19.jpg,Vertical,False
 images/horizontal/02170.jpg,horizontal,2,2.jpg,horizontal,True
 images/horizontal/02171.jpg,horizontal,3,20.jpg,horizontal,True
 images/horizontal/02172.jpg,horizontal,2,21.jpg,Vertical,False
 images/horizontal/02173.jpg,horizontal,2,22.jpg,horizontal,True
-images/horizontal/02174.jpg,horizontal,1,23.jpg,horizontal,True
-images/horizontal/02175.jpg,horizontal,3,24.jpg,Vertical,False
+images/horizontal/02174.jpg,horizontal,1,23.jpg,hole,False
+images/horizontal/02175.jpg,horizontal,3,24.jpg,horizontal,True
 images/horizontal/02176.jpg,horizontal,3,25.jpg,Vertical,False
 images/horizontal/02177.jpg,horizontal,4,26.jpg,horizontal,True
 images/horizontal/02178.jpg,horizontal,1,27.jpg,hole,False
-images/horizontal/02179.jpg,horizontal,2,28.jpg,hole,False
+images/horizontal/02179.jpg,horizontal,2,28.jpg,Vertical,False
 images/horizontal/02180.jpg,horizontal,4,29.jpg,horizontal,True
 images/horizontal/02181.jpg,horizontal,3,3.jpg,horizontal,True
 images/horizontal/02182.jpg,horizontal,2,30.jpg,horizontal,True
@@ -2194,23 +2194,23 @@ images/horizontal/02191.jpg,horizontal,0,8.jpg,horizontal,True
 images/horizontal/02192.jpg,horizontal,2,9.jpg,horizontal,True
 images/lines/02193.jpg,lines,4,20180531_140300(1).jpg,lines,True
 images/lines/02194.jpg,lines,2,20180531_140329.jpg,lines,True
-images/lines/02195.jpg,lines,2,20180531_140759.jpg,hole,False
-images/lines/02196.jpg,lines,2,20180531_140818.jpg,Vertical,False
+images/lines/02195.jpg,lines,2,20180531_140759.jpg,Vertical,False
+images/lines/02196.jpg,lines,2,20180531_140818.jpg,lines,True
 images/lines/02197.jpg,lines,4,line_2018-09-19 15_19_10.492631.jpg,lines,True
 images/lines/02198.jpg,lines,2,line_2018-09-19 15_21_00.956529.jpg,hole,False
 images/lines/02199.jpg,lines,1,line_2018-10-10 09_37_25.363732.jpg,lines,True
 images/lines/02200.jpg,lines,3,line_2018-10-10 09_38_32.561990.jpg,lines,True
 images/lines/02201.jpg,lines,0,line_2018-10-10 09_40_28.709467.jpg,lines,True
 images/lines/02202.jpg,lines,3,line_2018-10-10 09_41_10.085189.jpg,lines,True
-images/lines/02203.jpg,lines,0,line_2018-10-10 09_41_49.738887.jpg,hole,False
+images/lines/02203.jpg,lines,0,line_2018-10-10 09_41_49.738887.jpg,lines,True
 images/lines/02204.jpg,lines,0,line_2018-10-10 09_48_34.534930.jpg,lines,True
-images/lines/02205.jpg,lines,4,line_2018-10-10 09_49_24.116093.jpg,lines,True
+images/lines/02205.jpg,lines,4,line_2018-10-10 09_49_24.116093.jpg,hole,False
 images/lines/02206.jpg,lines,3,line_2018-10-10 09_50_46.848394.jpg,hole,False
 images/lines/02207.jpg,lines,3,line_2018-10-10 09_56_25.278576.jpg,lines,True
 images/lines/02208.jpg,lines,1,line_2018-10-10 09_58_58.620719.jpg,lines,True
 images/lines/02209.jpg,lines,4,line_2018-10-10 10_01_12.675905.jpg,lines,True
 images/lines/02210.jpg,lines,0,line_2018-10-10 10_02_22.188528.jpg,lines,True
-images/lines/02211.jpg,lines,3,line_2018-10-10 10_03_31.075352.jpg,lines,True
+images/lines/02211.jpg,lines,3,line_2018-10-10 10_03_31.075352.jpg,horizontal,False
 images/lines/02212.jpg,lines,1,line_2018-10-10 10_05_44.703532.jpg,lines,True
 images/lines/02213.jpg,lines,0,line_2018-10-10 10_11_20.790603.jpg,lines,True
 images/lines/02214.jpg,lines,0,line_2018-10-10 10_19_23.278896.jpg,lines,True
@@ -2256,7 +2256,7 @@ images/lines/02253.jpg,lines,0,line_2018-10-10 10_51_02.127462.jpg,lines,True
 images/lines/02254.jpg,lines,2,line_2018-10-10 10_51_33.704789.jpg,lines,True
 images/lines/02255.jpg,lines,1,line_2018-10-10 10_52_48.187857.jpg,lines,True
 images/lines/02256.jpg,lines,4,line_2018-10-10 10_53_39.007376.jpg,lines,True
-images/lines/02257.jpg,lines,2,line_2018-10-10 11_02_01.266587.jpg,horizontal,False
+images/lines/02257.jpg,lines,2,line_2018-10-10 11_02_01.266587.jpg,hole,False
 images/lines/02258.jpg,lines,1,line_2018-10-10 11_02_32.854768.jpg,lines,True
 images/lines/02259.jpg,lines,1,line_2018-10-10 11_03_08.255934.jpg,lines,True
 images/lines/02260.jpg,lines,1,line_2018-10-10 11_03_42.058118.jpg,lines,True
@@ -2281,7 +2281,7 @@ images/lines/02278.jpg,lines,2,line_2018-10-10 11_26_24.165565.jpg,hole,False
 images/lines/02279.jpg,lines,3,line_2018-10-10 11_26_57.077130.jpg,lines,True
 images/lines/02280.jpg,lines,0,line_2018-10-10 11_27_32.737113.jpg,lines,True
 images/lines/02281.jpg,lines,4,line_2018-10-10 11_28_03.415124.jpg,lines,True
-images/lines/02282.jpg,lines,0,line_2018-10-10 11_28_45.435211.jpg,hole,False
+images/lines/02282.jpg,lines,0,line_2018-10-10 11_28_45.435211.jpg,lines,True
 images/lines/02283.jpg,lines,1,line_2018-10-10 11_29_32.499997.jpg,lines,True
 images/lines/02284.jpg,lines,0,line_2018-10-10 11_30_05.524376.jpg,lines,True
 images/lines/02285.jpg,lines,3,line_2018-10-10 11_30_35.226490.jpg,lines,True
@@ -2290,7 +2290,7 @@ images/lines/02287.jpg,lines,4,line_2018-10-10 11_31_37.875841.jpg,lines,True
 images/lines/02288.jpg,lines,4,line_2018-10-10 11_32_18.094130.jpg,lines,True
 images/lines/02289.jpg,lines,0,line_2018-10-10 11_32_50.855424.jpg,lines,True
 images/lines/02290.jpg,lines,3,line_2018-10-10 11_33_24.870545.jpg,lines,True
-images/lines/02291.jpg,lines,4,line_2018-10-10 11_34_02.256223.jpg,lines,True
+images/lines/02291.jpg,lines,4,line_2018-10-10 11_34_02.256223.jpg,hole,False
 images/lines/02292.jpg,lines,2,line_2018-10-10 11_34_38.955603.jpg,lines,True
 images/lines/02293.jpg,lines,3,line_2018-10-10 11_35_33.467090.jpg,lines,True
 images/lines/02294.jpg,lines,0,line_2018-10-10 11_36_11.154255.jpg,lines,True
@@ -2304,9 +2304,9 @@ images/lines/02301.jpg,lines,1,line_2018-10-10 11_41_14.456214.jpg,lines,True
 images/lines/02302.jpg,lines,3,line_2018-10-10 11_41_47.766418.jpg,lines,True
 images/lines/02303.jpg,lines,3,line_2018-10-10 11_42_30.795720.jpg,lines,True
 images/lines/02304.jpg,lines,4,line_2018-10-10 11_43_35.996543.jpg,lines,True
-images/lines/02305.jpg,lines,1,line_2018-10-10 11_44_09.553073.jpg,hole,False
+images/lines/02305.jpg,lines,1,line_2018-10-10 11_44_09.553073.jpg,lines,True
 images/lines/02306.jpg,lines,4,line_2018-10-10 11_44_44.645529.jpg,lines,True
-images/lines/02307.jpg,lines,3,line_2018-10-10 11_45_22.844795.jpg,lines,True
+images/lines/02307.jpg,lines,3,line_2018-10-10 11_45_22.844795.jpg,hole,False
 images/lines/02308.jpg,lines,3,line_2018-10-10 11_46_00.734633.jpg,lines,True
 images/lines/02309.jpg,lines,2,line_2018-10-10 11_46_40.067762.jpg,lines,True
 images/lines/02310.jpg,lines,0,line_2018-10-10 11_47_11.774737.jpg,hole,False
@@ -2433,7 +2433,7 @@ images/stain/02430.jpg,stain,1,181.jpg,stain,True
 images/stain/02431.jpg,stain,2,182.jpg,stain,True
 images/stain/02432.jpg,stain,0,183.jpg,stain,True
 images/stain/02433.jpg,stain,0,184.jpg,stain,True
-images/stain/02434.jpg,stain,0,185.jpg,hole,False
+images/stain/02434.jpg,stain,0,185.jpg,stain,True
 images/stain/02435.jpg,stain,2,186.jpg,stain,True
 images/stain/02436.jpg,stain,4,187.jpg,stain,True
 images/stain/02437.jpg,stain,4,188.jpg,stain,True
@@ -2445,7 +2445,7 @@ images/stain/02442.jpg,stain,0,192.jpg,stain,True
 images/stain/02443.jpg,stain,3,193.jpg,stain,True
 images/stain/02444.jpg,stain,0,194.jpg,stain,True
 images/stain/02445.jpg,stain,4,195.jpg,stain,True
-images/stain/02446.jpg,stain,3,196.jpg,defect free,False
+images/stain/02446.jpg,stain,3,196.jpg,stain,True
 images/stain/02447.jpg,stain,0,197.jpg,stain,True
 images/stain/02448.jpg,stain,0,198.jpg,stain,True
 images/stain/02449.jpg,stain,2,199.jpg,stain,True
@@ -2659,7 +2659,7 @@ images/stain/02656.jpg,stain,3,385.jpg,stain,True
 images/stain/02657.jpg,stain,1,386.jpg,stain,True
 images/stain/02658.jpg,stain,3,387.jpg,stain,True
 images/stain/02659.jpg,stain,0,388.jpg,stain,True
-images/stain/02660.jpg,stain,3,389.jpg,defect free,False
+images/stain/02660.jpg,stain,3,389.jpg,stain,True
 images/stain/02661.jpg,stain,2,39.jpg,stain,True
 images/stain/02662.jpg,stain,1,390.jpg,stain,True
 images/stain/02663.jpg,stain,1,391.jpg,stain,True
@@ -2672,14 +2672,14 @@ images/stain/02669.jpg,stain,3,397.jpg,stain,True
 images/stain/02670.jpg,stain,4,398.jpg,stain,True
 images/stain/02671.jpg,stain,4,4.jpg,stain,True
 images/stain/02672.jpg,stain,0,40.jpg,stain,True
-images/stain/02673.jpg,stain,3,41.jpg,defect free,False
+images/stain/02673.jpg,stain,3,41.jpg,stain,True
 images/stain/02674.jpg,stain,1,42.jpg,stain,True
 images/stain/02675.jpg,stain,0,43.jpg,stain,True
 images/stain/02676.jpg,stain,4,44.jpg,stain,True
 images/stain/02677.jpg,stain,3,45.jpg,stain,True
 images/stain/02678.jpg,stain,0,46.jpg,stain,True
 images/stain/02679.jpg,stain,1,47.jpg,stain,True
-images/stain/02680.jpg,stain,3,48.jpg,defect free,False
+images/stain/02680.jpg,stain,3,48.jpg,stain,True
 images/stain/02681.jpg,stain,1,49.jpg,stain,True
 images/stain/02682.jpg,stain,0,5.jpg,stain,True
 images/stain/02683.jpg,stain,4,50.jpg,stain,True
@@ -2706,7 +2706,7 @@ images/stain/02703.jpg,stain,3,69.jpg,stain,True
 images/stain/02704.jpg,stain,1,7.jpg,stain,True
 images/stain/02705.jpg,stain,2,70.jpg,stain,True
 images/stain/02706.jpg,stain,3,71.jpg,stain,True
-images/stain/02707.jpg,stain,3,72.jpg,defect free,False
+images/stain/02707.jpg,stain,3,72.jpg,stain,True
 images/stain/02708.jpg,stain,3,73.jpg,stain,True
 images/stain/02709.jpg,stain,3,74.jpg,stain,True
 images/stain/02710.jpg,stain,0,75.jpg,stain,True
