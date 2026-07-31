@@ -49,7 +49,7 @@ datasets/
 *.onnx
 *.h5
 !models/baseline_cnn_fold*.pt
-!models/resnet18_fold0.pt
+!models/resnet18_fold2.pt
 !models/*_config.json
 weights/
 runs/
