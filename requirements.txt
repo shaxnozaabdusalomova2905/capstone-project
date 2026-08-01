@@ -1,9 +1,13 @@
+# CPU-only PyTorch wheels. Without this line pip installs the CUDA build on
+# Linux, which is far too large for free hosting such as Streamlit Cloud.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 torch
 torchvision
-opencv-python
 Pillow
 numpy
 pandas
 matplotlib
 scikit-learn
 kagglehub
+streamlit

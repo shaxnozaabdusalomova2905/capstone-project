@@ -268,6 +268,24 @@ idx = int(probs.argmax())
 print(f"{cfg['class_names'][idx]}  ({probs[idx]:.1%} confidence)")
 ```
 
+### Web interface
+
+A Streamlit app provides the same thing without writing code:
+
+```bash
+streamlit run app.py
+```
+
+Upload a fabric photograph and it returns the predicted class, a confidence score, the combined probability that *any* defect is present, and a warning when the image should be checked by a person. The review threshold is adjustable in the sidebar.
+
+```bash
+python src/predict.py fabric.jpg                  # single image
+python src/predict.py photos/ --threshold 0.95    # a whole folder
+python src/predict.py fabric.jpg --all            # every class probability
+```
+
+Both refuse files they cannot read, and reject images with almost no brightness variation — a blank or near-blank picture would otherwise be classified confidently and wrongly.
+
 ### Example input and output
 
 **Input:** a 1280×720 JPEG photograph of fabric with a visible hole
@@ -304,6 +322,11 @@ capstone-project/
 │   ├── 02_data_preprocessing.ipynb
 │   ├── 03_baseline_cnn.ipynb
 │   └── 04_resnet18_transfer_learning.ipynb
+│
+├── app.py                       Streamlit web interface
+│
+├── src/
+│   └── predict.py               command-line classifier
 │
 ├── models/                      trained weights + settings needed to reload them
 │   ├── baseline_cnn_fold0-4.pt
