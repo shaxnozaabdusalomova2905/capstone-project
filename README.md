@@ -4,6 +4,10 @@
 **Project track:** Track 1 — Individual Project Track
 **Course:** AI/ML Fundamentals — Capstone Project
 
+### 🔗 [Try the live demo →](https://capstone-project-fnrnvvgboe6b2i8gczg9ju.streamlit.app)
+
+Upload a fabric photograph and the trained model classifies it in the browser — no installation required.
+
 ---
 
 ## Problem Statement
@@ -270,7 +274,9 @@ print(f"{cfg['class_names'][idx]}  ({probs[idx]:.1%} confidence)")
 
 ### Web interface
 
-A Streamlit app provides the same thing without writing code:
+**Live app: https://capstone-project-fnrnvvgboe6b2i8gczg9ju.streamlit.app**
+
+Or run the same app locally:
 
 ```bash
 streamlit run app.py
