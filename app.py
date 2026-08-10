@@ -69,18 +69,72 @@ with st.sidebar:
         "wrong. It is a second opinion for an inspector, not a replacement."
     )
 
-uploaded = st.file_uploader(
-    "Choose a fabric image",
-    type=["jpg", "jpeg", "png", "bmp", "tif", "tiff", "webp"],
-)
+SAMPLES_DIR = REPO / "assets" / "demo"
+samples = sorted(SAMPLES_DIR.glob("*")) if SAMPLES_DIR.exists() else []
+samples = [p for p in samples if p.suffix.lower() in
+           {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}]
 
-if uploaded is None:
-    st.info("Upload an image to begin. A close-up filling the frame works best.")
+tmp_path = None
+true_label = None
+
+if samples:
+    tab_sample, tab_upload = st.tabs(["Try a sample image", "Upload your own"])
+else:
+    tab_upload = st.container()
+    tab_sample = None
+
+def known_label(path):
+    """Return the true class if the filename matches one, otherwise None.
+
+    Naming a file after a class (for example Broken_stitch.jpg) lets the app
+    check the answer. Any other name is still classified, just without a
+    correct/wrong verdict.
+    """
+    stem = path.stem.replace("_", " ").strip().lower()
+    for name in CLASS_NAMES:
+        if stem == name.lower():
+            return name
+    return None
+
+
+if tab_sample is not None:
+    with tab_sample:
+        st.caption(
+            "Pick an image and press the button. Where the file is named after "
+            "a class, the app also shows whether the model got it right."
+        )
+        choice = st.selectbox(
+            "Sample images",
+            options=samples,
+            format_func=lambda p: p.stem.replace("_", " "),
+        )
+        st.image(str(choice), width=280)
+        if st.button("Classify this sample", type="primary"):
+            tmp_path = choice
+            true_label = known_label(choice)
+
+with tab_upload:
+    uploaded = st.file_uploader(
+        "Choose a fabric image",
+        type=["jpg", "jpeg", "png", "bmp", "tif", "tiff", "webp"],
+    )
+    if uploaded is not None:
+        with tempfile.NamedTemporaryFile(
+                suffix=Path(uploaded.name).suffix, delete=False) as tmp:
+            tmp.write(uploaded.getbuffer())
+            tmp_path = Path(tmp.name)
+        true_label = None
+
+if tmp_path is None:
+    st.info(
+        "Pick a sample above, or upload your own image. "
+        "A close-up filling the frame works best."
+        if samples else
+        "Upload an image to begin. A close-up filling the frame works best."
+    )
     st.stop()
 
-with tempfile.NamedTemporaryFile(suffix=Path(uploaded.name).suffix, delete=False) as tmp:
-    tmp.write(uploaded.getbuffer())
-    tmp_path = Path(tmp.name)
+is_uploaded = tmp_path.parent != SAMPLES_DIR
 
 try:
     image, warnings = load_and_check(tmp_path)
@@ -110,6 +164,13 @@ with right:
         st.error(f"### {label}")
     else:
         st.success(f"### {label}")
+
+    if true_label is not None:
+        if label == true_label:
+            st.success(f"✅ Correct — the true label is **{true_label}**")
+        else:
+            st.warning(f"❌ Wrong — the true label is **{true_label}**")
+
     st.metric("Confidence", f"{confidence:.1%}")
     st.metric("Any defect present", f"{defect_total:.1%}",
               help="The eight defect classes added together. The model is often "
@@ -150,4 +211,5 @@ and 34 training images and are mostly confused with each other.
         """
     )
 
-tmp_path.unlink(missing_ok=True)
+if is_uploaded:
+    tmp_path.unlink(missing_ok=True)
