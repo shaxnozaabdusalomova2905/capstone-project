@@ -13,7 +13,7 @@ This page tells you exactly which file proves each part of the rubric, so nothin
 | 5. End-to-end delivery | Live app above, `app.py`, `src/predict.py`, `notebooks/05_inference_demo.ipynb`, `models/` |
 | 6. Documentation and reproducibility | `README.md`, `requirements.txt`, `docs/REPRODUCTION_TEST.md` |
 | 7. Responsible AI and limitations | `docs/RESPONSIBLE_AI_AND_LIMITATIONS.md`, README — Known Limitations |
-| 8. Presentation, demo and Q&A | `presentation/` |
+| 8. Presentation, demo and Q&A | The live app; `notebooks/05_inference_demo.ipynb`; slides submitted separately |
 
 ---
 
@@ -113,12 +113,14 @@ Every notebook uses a fixed random seed, so re-running produces the same five fo
 
 ## Criterion 8 — Presentation, demo and Q&A
 
+This criterion is assessed during the defence itself rather than from the repository. The repository provides what the presentation is built on:
+
 | What is required | Where it is |
 |---|---|
-| A clear presentation | `presentation/SPEAKER_FLOW.md` |
-| A working live demo | Live app link, with `presentation/FALLBACK_EVIDENCE.md` if the internet fails |
-| Results explained clearly | `presentation/DEFENSE_DECK_MAP.md` |
-| Questions answered well | `presentation/Q_AND_A_BANK.md` |
+| A clear presentation | Slides submitted separately |
+| A working live demo | The live app (link above); `notebooks/05_inference_demo.ipynb` as a backup |
+| Results explained clearly | README — Evaluation Metrics and Results; `reports/ERROR_ANALYSIS.md` |
+| Questions answered well | Every claim in this table points at a file, so answers can be shown rather than recalled |
 
 ---
 
