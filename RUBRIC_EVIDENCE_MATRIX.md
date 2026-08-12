@@ -4,20 +4,20 @@ This page tells you exactly which file proves each part of the rubric, so nothin
 
 **Live demo:** https://capstone-project-fnrnvvgboe6b2i8gczg9ju.streamlit.app
 
-| Criterion | Max | Pass mark | Where to look |
-|---|---:|---:|---|
-| 1. Problem definition and alignment | 10 | 6 | `docs/PROJECT_BRIEF.md`, README — Problem Statement, ML Task Type, Success Criteria |
-| 2. Data and preprocessing | 15 | 9 | `notebooks/01_dataset_exploration.ipynb`, `notebooks/02_data_preprocessing.ipynb`, `data/processed/manifest.csv` |
-| 3. Modeling and experiments | 20 | 12 | `notebooks/03_baseline_cnn.ipynb`, `notebooks/04_resnet18_transfer_learning.ipynb`, `docs/EXPERIMENT_LOG.md`, `outputs/resnet18/resnet18_experiments.csv` |
-| 4. Evaluation and error analysis | 15 | 9 | `notebooks/04_resnet18_transfer_learning.ipynb` §7–8, `reports/ERROR_ANALYSIS.md`, `outputs/resnet18/` |
-| 5. End-to-end delivery | 20 | 12 | Live app above, `app.py`, `src/predict.py`, `notebooks/05_inference_demo.ipynb`, `models/` |
-| 6. Documentation and reproducibility | 10 | 6 | `README.md`, `requirements.txt`, `docs/REPRODUCTION_TEST.md` |
-| 7. Responsible AI and limitations | 5 | 3 | `docs/RESPONSIBLE_AI_AND_LIMITATIONS.md`, README — Known Limitations |
-| 8. Presentation, demo and Q&A | 5 | 3 | `presentation/` |
+| Criterion | Where to look |
+|---|---|
+| 1. Problem definition and alignment | `docs/PROJECT_BRIEF.md`, README — Problem Statement, ML Task Type, Success Criteria |
+| 2. Data and preprocessing | `notebooks/01_dataset_exploration.ipynb`, `notebooks/02_data_preprocessing.ipynb`, `data/processed/manifest.csv` |
+| 3. Modeling and experiments | `notebooks/03_baseline_cnn.ipynb`, `notebooks/04_resnet18_transfer_learning.ipynb`, `docs/EXPERIMENT_LOG.md`, `outputs/resnet18/resnet18_experiments.csv` |
+| 4. Evaluation and error analysis | `notebooks/04_resnet18_transfer_learning.ipynb` §7–8, `reports/ERROR_ANALYSIS.md`, `outputs/resnet18/` |
+| 5. End-to-end delivery | Live app above, `app.py`, `src/predict.py`, `notebooks/05_inference_demo.ipynb`, `models/` |
+| 6. Documentation and reproducibility | `README.md`, `requirements.txt`, `docs/REPRODUCTION_TEST.md` |
+| 7. Responsible AI and limitations | `docs/RESPONSIBLE_AI_AND_LIMITATIONS.md`, README — Known Limitations |
+| 8. Presentation, demo and Q&A | `presentation/` |
 
 ---
 
-## Criterion 1 — Problem definition (10 points)
+## Criterion 1 — Problem definition
 
 | What is required | Where it is |
 |---|---|
@@ -28,7 +28,7 @@ This page tells you exactly which file proves each part of the rubric, so nothin
 
 ---
 
-## Criterion 2 — Data and preprocessing (15 points)
+## Criterion 2 — Data and preprocessing
 
 | What is required | Where it is |
 |---|---|
@@ -43,7 +43,7 @@ This page tells you exactly which file proves each part of the rubric, so nothin
 
 ---
 
-## Criterion 3 — Modeling and experiments (20 points)
+## Criterion 3 — Modeling and experiments
 
 | What is required | Where it is |
 |---|---|
@@ -58,7 +58,7 @@ This page tells you exactly which file proves each part of the rubric, so nothin
 
 ---
 
-## Criterion 4 — Evaluation and error analysis (15 points)
+## Criterion 4 — Evaluation and error analysis
 
 | What is required | Where it is |
 |---|---|
@@ -71,7 +71,7 @@ This page tells you exactly which file proves each part of the rubric, so nothin
 
 ---
 
-## Criterion 5 — End-to-end delivery (20 points)
+## Criterion 5 — End-to-end delivery
 
 | What is required | Where it is |
 |---|---|
@@ -86,7 +86,7 @@ This page tells you exactly which file proves each part of the rubric, so nothin
 
 ---
 
-## Criterion 6 — Documentation and reproducibility (10 points)
+## Criterion 6 — Documentation and reproducibility
 
 | What is required | Where it is |
 |---|---|
@@ -99,7 +99,7 @@ Every notebook uses a fixed random seed, so re-running produces the same five fo
 
 ---
 
-## Criterion 7 — Responsible AI and limitations (5 points)
+## Criterion 7 — Responsible AI and limitations
 
 | What is required | Where it is |
 |---|---|
@@ -111,7 +111,7 @@ Every notebook uses a fixed random seed, so re-running produces the same five fo
 
 ---
 
-## Criterion 8 — Presentation, demo and Q&A (5 points)
+## Criterion 8 — Presentation, demo and Q&A
 
 | What is required | Where it is |
 |---|---|
