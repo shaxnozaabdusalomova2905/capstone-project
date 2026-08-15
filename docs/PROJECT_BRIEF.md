@@ -1,9 +1,7 @@
 # Project Brief
 
-**Status:** _Draft — awaiting mentor approval_
 **Author:** Shakhnoza Abdusalomova
-**Date:** _[fill in]_
-**Approved by:** _[mentor name]_ on _[date]_
+**Track:** Individual Project Track
 
 ---
 
@@ -121,11 +119,3 @@ It runs online with nothing to install, and can also be run locally or from a no
 **Squashing images replaced padding.** The original plan was to pad images to keep their proportions. Exploration showed that image size gives away the class — three classes are stored at exactly 224×224 and no other class has a single image that size. Padding would have preserved that clue and let the model read the padding instead of the fabric.
 
 ---
-
-## Signature
-
-I confirm this brief describes the project I intend to build.
-
-**Student:** Shakhnoza Abdusalomova — date: _[fill in]_
-
-**Mentor approval:** _[name]_ — date: _[fill in]_
