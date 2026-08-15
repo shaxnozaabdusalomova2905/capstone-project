@@ -16,9 +16,7 @@
 
 ## Short project description
 
-In textile factories, fabric is checked by hand. The work is repetitive, inspectors disagree with each other, and the two possible mistakes cost very different amounts: a missed defect reaches the customer, while a false alarm only costs one extra look.
-
-This project trains a model to classify a photograph of fabric into eight defect types plus a "no defect" class, so an inspector gets an automatic second opinion.
+I chose this project because fabric quality inspection is often repetitive and time-consuming when performed manually. Small or subtle defects may also be missed due to human fatigue or inconsistent inspection. This project aims to use computer vision and deep learning to automatically classify fabric as defect-free or identify its defect type, helping make textile quality inspection faster and more consistent.
 
 ### The data, and what was wrong with it
 
@@ -77,19 +75,3 @@ The system is a second opinion for an inspector, not a replacement.
 | Error analysis | `reports/ERROR_ANALYSIS.md` |
 | Limitations and responsible use | `docs/RESPONSIBLE_AI_AND_LIMITATIONS.md` |
 | How to reproduce it | `docs/REPRODUCTION_TEST.md` |
-
-## How to run the demo
-
-**Easiest:** open the live demo link above. Nothing to install.
-
-**In Colab:** open `notebooks/05_inference_demo.ipynb` and run it. It clones the repository, loads the saved model, and classifies images in about a minute. No training and no dataset download needed.
-
-**On your own machine:**
-
-```bash
-git clone https://github.com/shaxnozaabdusalomova2905/capstone-project.git
-cd capstone-project
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-streamlit run app.py
-```
